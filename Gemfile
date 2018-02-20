@@ -36,6 +36,9 @@ gem 'devise'
 # Use RSpec for TDD
 gem 'rspec', '~> 3.0'
 
+# User figaro for ENV vars
+gem 'figaro', '1.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -59,8 +59,8 @@ Rails.application.configure do
   address:              'smtp.gmail.com',
   port:                 587,
   domain:               'blocpedia.com',
-  user_name:            'bdurbin.blocpedia',
-  password:             'blocpedia',
+  user_name:            ENV['GMAIL_USERNAME'],
+  password:             ENV['GMAIL_PASSWORD'],
   authentication:       'plain',
   enable_starttls_auto: true  }
 end
